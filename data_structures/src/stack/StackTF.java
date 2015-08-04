@@ -38,9 +38,6 @@ public class StackTF<T> {
     }
 
     public boolean isEmpty(){
-        if (top == null){
-            return true;
-        }
-        return top.data == null;
+        return top == null;
     }
 }

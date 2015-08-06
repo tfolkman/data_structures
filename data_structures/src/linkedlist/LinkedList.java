@@ -116,14 +116,14 @@ public class LinkedList {
         Object data;
 
 
-        // Node constructor
+        // GraphNode constructor
         public Node(Object _data)
         {
             next = null;
             data = _data;
         }
 
-        // another Node constructor if we want to
+        // another GraphNode constructor if we want to
         // specify the node to point to.
         public Node(Object _data, Node _next)
         {

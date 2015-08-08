@@ -28,6 +28,8 @@ public class GraphTFTest {
 
 
         DepthFirstSearch depthFirstSearch = new DepthFirstSearch(graphTF, 0);
+        System.out.println("***********");
+        BreadthFirstSearch breadthFirstSearch = new BreadthFirstSearch(graphTF, 0);
 
     }
 
